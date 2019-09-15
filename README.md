@@ -1,5 +1,7 @@
 # Global gems Bundler Plugin
 
+![](https://github.com/farkasmate/global_gems/workflows/CI/badge.svg)
+
 Include gems in your Ruby projects without adding them to version control.
 
 ## Install

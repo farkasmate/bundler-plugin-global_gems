@@ -15,6 +15,7 @@ jobs:
       - run: bundle exec rake build
       - run: ls -l pkg/
       - name: Publish to GPR
+        if: github.ref == 'refs/heads/master'
         run: |
           mkdir -p $HOME/.gem
           touch $HOME/.gem/credentials
