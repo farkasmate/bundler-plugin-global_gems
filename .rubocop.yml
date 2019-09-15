@@ -4,4 +4,4 @@ Metrics/LineLength:
     - '*.gemspec'
 
 Style/Documentation:
-  Enabled: true
+  Enabled: false
