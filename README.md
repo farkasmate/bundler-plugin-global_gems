@@ -7,7 +7,7 @@ Include gems in your Ruby projects without adding them to version control.
 Run the following command in your project directory to install locally or in your home directory to install everywhere.
 
 ```
-bundle plugin install --git=https://github.com/farkasmate/bundler-plugin-global_gems.git global_gems
+bundle plugin install --git=https://github.com/farkasmate/global_gems.git global_gems
 ```
 
 ## Usage example
