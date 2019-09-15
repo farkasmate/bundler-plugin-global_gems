@@ -1,7 +1,13 @@
+Metrics/AbcSize:
+  Max: 25
+
 Metrics/LineLength:
-  Max: 80
+  Max: 160
   Exclude:
     - '*.gemspec'
+
+Metrics/MethodLength:
+  Max: 15
 
 Style/Documentation:
   Enabled: false
